@@ -426,6 +426,63 @@
     </div>
   </section>
   <footer class="gap no-bottom" style="background-image: url(assets/img/line-img.png);">
+    
+    <div class="fixed-footer">
+      <a href="/enroll" class="enroll-btn">
+          Enroll Now
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="arrow-icon" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M8.354 1.354a.5.5 0 0 1 0 .708L3.707 6.707a1 1 0 0 0 0 1.414l4.647 4.647a.5.5 0 0 1-.708.708l-4.646-4.647a2 2 0 0 1 0-2.828l4.646-4.647a.5.5 0 0 1 .708 0z"/>
+              <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5-.5V5H6.5a.5.5 0 0 1 0-1H12a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5z"/>
+          </svg>
+      </a>
+  </div>
+
+  <style>
+    /* Fixed Footer */
+.fixed-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #004d80; /* University branding color */
+    padding: 15px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Enroll Button */
+.enroll-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #f9a825; /* Golden color */
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 30px;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.enroll-btn:hover {
+    background-color: #d48806; /* Darker golden */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+}
+
+.arrow-icon {
+    margin-left: 10px;
+    fill: white;
+    transition: transform 0.3s ease;
+}
+
+.enroll-btn:hover .arrow-icon {
+    transform: translateX(5px);
+}
+  </style>
+    
     <div class="container">
       4
       <div class="footer-bottom">
