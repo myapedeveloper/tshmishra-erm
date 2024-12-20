@@ -1535,3 +1535,37 @@ footer {
   .staps-text p{
     display:none;
   }
+
+  @media only screen and (max-width:768px){
+    .customize-text{
+        padding-top:0 !important;
+    }
+    p{
+        text-align: center;
+    }
+
+    .heading h2{
+        width:100% !important;
+        text-align:center !important;
+    }
+    .btn-read{
+        width:100% !important;
+        text-align: center;
+    }
+    .hero-text {
+        text-align: center;
+    }
+    img[src="assets/img/graduated-lawyer-concept-illustr.webp"]{
+        display:none !important;
+    }
+    #no-gap{
+        margin-top:20px !important;
+    }
+    #hid2, .btn, #hid{
+        font-size:15px !important;
+    }
+
+    .newsletter-text{
+        text-align:center;
+    }
+  }
