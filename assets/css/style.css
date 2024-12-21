@@ -1539,6 +1539,13 @@ footer {
   }
 
   @media only screen and (max-width:768px){
+    
+    #main-text,#date-banner{
+        display: inline-block !important;
+        font-size: 22px !important;
+        margin-bottom: -40px;
+    }
+    
     .customize-text{
         padding-top:0 !important;
     }
@@ -1586,16 +1593,17 @@ footer {
     }
     .mobile-banner-text{
         text-align:center !important;
-        margin-top:50px;
+        margin-top:25px;
     }
     .mobile-banner-text h2{
         margin-top:0 !important;
     }
-    .mobile-banner-text span{
-        display: inline-block;
-        font-size: 23px;
-        margin-bottom: -40px;
+
+    .modal-content{
+        width:80% !important;
+        height:300px !important;
     }
+ 
   }
 
 
@@ -1641,4 +1649,10 @@ footer {
         border: none;
         font-size: 1.5rem;
         cursor: pointer;
+    }
+
+
+    .img-thumbnail{
+        width:350px;
+        height:250px;
     }
