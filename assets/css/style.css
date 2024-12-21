@@ -243,7 +243,7 @@ header .btn:after {
 .hero-text h2 {
     color: #fff;
     padding-bottom: 20px;
-    line-height: 72px;
+    font-size:50px;
     font-weight: bold;
     
 }
@@ -326,7 +326,7 @@ form#contact-form h3 {
 }
 .get-a-quote {
     z-index: 11;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     background-color: white;
     padding: 40px;
     border-radius: 20px;
@@ -1584,10 +1584,61 @@ footer {
     .batton{
         margin-top:15px;
     }
+    .mobile-banner-text{
+        text-align:center !important;
+        margin-top:50px;
+    }
+    .mobile-banner-text h2{
+        margin-top:0 !important;
+    }
+    .mobile-banner-text span{
+        display: inline-block;
+        font-size: 23px;
+        margin-bottom: -40px;
+    }
   }
 
 
 
     .customize-img img{
         width:80% !important;
+    }
+    .gallery_product
+    {
+        margin-bottom: 30px;
+    }
+    .modal-img {
+        width: 100%;
+        height: 560px;
+    }
+
+    .modal-backdrop {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .modal-content {
+        position: relative;
+        background: white;
+        padding: 15px;
+        width:50%;
+        height:600px;
+        border-radius: 5px;
+    }
+
+    .modal-close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: none;
+        border: none;
+        font-size: 1.5rem;
+        cursor: pointer;
     }
