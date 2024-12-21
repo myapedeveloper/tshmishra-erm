@@ -1570,11 +1570,24 @@ footer {
     .newsletter-text{
         text-align:center;
     }   
+    .pricing-plans-text h3, .pricing-plans-text span{
+        text-align:center;
+        display:block;
+      }
+  
+      .customize-img {
+        text-align:center !important;
+      }
+      .center-button{
+        text-align:center;
+      }
+    .batton{
+        margin-top:15px;
+    }
   }
 
 
-  @media only screen and (min-width:768px){
+
     .customize-img img{
         width:80% !important;
     }
-  }
