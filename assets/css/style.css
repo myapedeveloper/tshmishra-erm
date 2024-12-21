@@ -245,7 +245,7 @@ header .btn:after {
     padding-bottom: 20px;
     line-height: 72px;
     font-weight: bold;
-    font-size: 64px;
+    
 }
 .hero-text h2 span {
     color: var(--main-color);
@@ -452,7 +452,7 @@ ul.social-media-icon li:nth-child(3) a {
     margin-bottom: 40px;
 }
 .heading h2 {
-    font-size: 45px;
+    font-size: 35px;
     padding-top: 20px;
     font-weight: bold;
 }
@@ -811,7 +811,7 @@ ul.social-media-icon li:nth-child(3) a {
     font-weight: bold;
 }
 .pricing-plans h5 {
-    font-size: 45px;
+    font-size: 35px;
     font-weight: bold;
     color: white;
 }
@@ -821,17 +821,18 @@ ul.social-media-icon li:nth-child(3) a {
 }
 .pricing-plans-text {
     background-color: white;
-    padding: 60px;
+    padding: 30px;
     padding-top: 0;
     padding-bottom: 50px;
     border-radius: 20px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
 }
 .pricing-plans-text i {
-    width: 90px;
+    width: 70px;
     transform: translateY(-30px); 
-    height: 90px;
+    height: 70px;
     display: flex;
     border-radius: 50%;
     background-color: var(--main-color);
@@ -863,7 +864,7 @@ ul.social-media-icon li:nth-child(3) a {
     color: var(--bgcolor);
 }
 .pricing-plans-text i svg {
-    width: 50px;
+    width: 40px;
     height: auto;
 }
 .pricing-plans-text .btn:hover span{
@@ -874,8 +875,8 @@ ul.social-media-icon li:nth-child(3) a {
 }
 /* 15. newsletter */
 .newsletter {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 75px;
+    padding-bottom: 75px;
     background-repeat: no-repeat;
     background-color: var(--main-color);
 }
@@ -1021,12 +1022,13 @@ a.heading{
     top: -33.5px; 
 }
 .count-style h2 {
-    font-size: 90px;
+    font-size: 60px;
     font-weight: 800;
     color: var(--bgcolor);
 }
 .count-style span { 
-    font-size: 16px;
+    font-size: 18px;
+    font-weight:bold;
 }
 /* 18. clients */
 .clients h6 {
@@ -1197,9 +1199,9 @@ form#subscribe-form input {
 }
 .hero-text p {
     color: white;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     font-size: 19px;
-    padding-top: 00px;
+    padding-top: 10px;
     line-height: 35px;
 }
 .hero-section.two .hero-text {
@@ -1567,5 +1569,12 @@ footer {
 
     .newsletter-text{
         text-align:center;
+    }   
+  }
+
+
+  @media only screen and (min-width:768px){
+    .customize-img img{
+        width:80% !important;
     }
   }
