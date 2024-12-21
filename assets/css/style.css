@@ -1603,7 +1603,9 @@ footer {
         width:80% !important;
         height:300px !important;
     }
- 
+    .mobile-gallery-view{
+        margin:auto;
+    }
   }
 
 

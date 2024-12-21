@@ -464,7 +464,7 @@
         <h2>Life at Campus</h2>
       </div>
  <div class="container">
-  <div class="row">
+  <div class="row mobile-gallery-view">
     <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-6">
       <img src="assets/img/mishrauniversity/campus.jpg" class="img-responsive img-thumbnail" alt="Gallery Image">
     </div>
@@ -807,53 +807,69 @@
   color: #fff; /* Ensures text is readable over the dark background */
   padding: 50px 0;">
     
-   
-  <style>
-    /* Fixed Footer */
-.fixed-footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: #004d80; /* University branding color */
-    padding: 15px;
-    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    z-index: 100;
-}
+<div class="cta-footer">
+  <span class="text-white font-weight-bold">Become a Legal <br>Professional Today?</span>
+  <button onclick="location.href='#'">Enroll Now</button>
+</div>
+<style>
+  /* CTA Footer Styling */
+  .cta-footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background: #294B66;
+      padding: 15px 20px;
+      box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.3);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 9999;
+  }
 
-/* Enroll Button */
-.enroll-btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 20px;
-    background-color: #f9a825; /* Golden color */
-    color: white;
-    font-size: 1.2rem;
-    font-weight: bold;
-    border-radius: 30px;
-    text-decoration: none;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    transition: all 0.3s ease;
-}
+  .cta-footer span {
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+  }
 
-.enroll-btn:hover {
-    background-color: #d48806; /* Darker golden */
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
-    transform: translateY(-2px);
-}
+  .cta-footer button {
+      background-color: #FDC04D;
+      color: black;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 50px;
+      font-size: 16px;
+      font-weight: bold;
+      
+      box-shadow: 0 0 20px rgba(253, 192, 77, 0.8);
+      animation: glow 1.5s infinite alternate;
+      cursor: pointer;
+      transition: background-color 0.3s, transform 0.2s;
+  }
 
-.arrow-icon {
-    margin-left: 10px;
-    fill: white;
-    transition: transform 0.3s ease;
-}
+  .cta-footer button:hover {
+      background-color: #d9a53c;
+      transform: scale(1.1);
+  }
 
-.enroll-btn:hover .arrow-icon {
-    transform: translateX(5px);
-}
-  </style>
+  /* Glow Animation */
+  @keyframes glow {
+      from {
+          box-shadow: 0 0 10px rgba(253, 192, 77, 0.6), 0 0 20px rgba(253, 192, 77, 0.4);
+      }
+      to {
+          box-shadow: 0 0 20px rgba(253, 192, 77, 0.8), 0 0 30px rgba(253, 192, 77, 0.6);
+      }
+  }
+
+  /* Responsive for Mobile */
+  @media (min-width: 768px) {
+      .cta-footer {
+          display: none; /* Hide on larger screens */
+      }
+  }
+</style>
     
     <div class="container">
       4
